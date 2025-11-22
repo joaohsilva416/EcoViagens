@@ -1,1 +1,10 @@
-raw_data/*.csv
+# Ignorar arquivos de sistema
+Thumbs.db
+.DS_Store
+
+# Ignorar dados csv (se você não quiser subir os dados brutos)
+data/*.csv
+
+# Ignorar configurações de IDEs
+.vscode/
+.idea/
