@@ -9,7 +9,9 @@ Minha missão foi estruturar o banco de dados e usar SQL para responder a pergun
 Precisei entender como as informações da empresa se conectavam. 
 Analisei as tabelas disponíveis (clientes, reservas, ofertas, etc) e montei o Modelo Lógico abaixo para garantir que as relações estavam corretas.
 
-<img width="700" height="500" alt="EcoViagens_Modelo_Logico" src="https://github.com/user-attachments/assets/b7376c34-fcfd-4409-a980-93acac3bbc47" />
+<div align="center">
+  <img src="./assets/EcoViagens_Modelo_Logico.png" width="500" alt="Modelo Lógico EcoViagens">
+</div>
 
 ### 2. Definindo as Métricas (KPIs)
 O desafio aqui foi receber perguntas da "diretoria" (ex: "Estamos fidelizando os clientes?") e traduzir isso para métricas que eu pudesse calcular com dados.
@@ -27,7 +29,7 @@ Abaixo, listo os KPIs que defini e como cheguei no cálculo de cada um:
 | Nota Média por Operador            | Quem são os melhores parceiros? | Média das avaliações agrupada por operador e categoria.                        |
 
 ### 3. Implementação com SQL
-Todos os scripts utilizados estão organizados na pasta [scripts_ecoviagens](./scripts_ecoviagens)
+Todos os scripts utilizados estão organizados na pasta [queries](./queries)
 
 **1. Receita Total:** Analisando a tabela, observei que Outubro/2024 foi o melhor mês, com um crescimento de quase 50%. 
 O período de Nov/2024 e Dez/2024 mostra uma queda natural, provavelmente devido às festas de fim de ano. 
@@ -146,3 +148,13 @@ ota absoluta (4.40), ela também sofre com maior variação de qualidade, tendo 
 | 🧗 Atividade | 3º | Aragão S/A | 3.75 |
 | 🧗 Atividade | 4º | Gonçalves | 3.73 |
 | 🧗 Atividade | 5º | Fernandes | 3.67 |
+
+## 📜 Estrutura do Projeto
+```
+EcoViagens/
+├── assets/
+├── data/
+├── queries/
+├── .gitignore
+└── README.md
+```
